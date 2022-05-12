@@ -1,0 +1,16 @@
+header {
+    background-color: aquamarine;
+}
+
+header img {
+    width: 300px;
+}
+
+header a {
+    color: black;
+    font-size: 18px;
+}
+
+h1 {
+    color: blue;
+}

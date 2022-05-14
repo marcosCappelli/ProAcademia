@@ -1,6 +1,8 @@
         body {
-            background-color: rgb(148, 142, 128);
             text-align: center;
+            background-image: url(../img/imagemFundo.webp);
+            opacity: 0.9;
+            background-repeat: no-repeat;
         }
         
         header {
@@ -30,7 +32,7 @@
             float: right;
             margin-top: 40px;
             margin-right: 18PX;
-            background-color: #fff;
+            background-color: bisque;
             padding: 5px;
             border-radius: 8px;
         }
@@ -52,7 +54,8 @@
         }
         
         h1,
-        div#infoMessage {
+        div#infoMessage,
+        fieldset {
             margin-left: auto;
             margin-right: auto;
         }
@@ -78,4 +81,47 @@
             padding: 5px;
             width: 400px;
             border-radius: 5px;
+        }
+        
+        fieldset {
+            background-color: bisque;
+            width: 400px;
+            text-align: left;
+            border-radius: 5px;
+            border: 0;
+        }
+        
+        legend {
+            background-color: bisque;
+            border-radius: 10px;
+            padding: 5px;
+            color: blue;
+            text-transform: uppercase;
+        }
+        
+        label {
+            color: rgb(54, 54, 185);
+        }
+        
+        input {
+            color: black;
+            background-color: antiquewhite;
+        }
+        
+        input[type=text]#nome,
+        input[type=text]#rua,
+        input[type=email] {
+            width: 95%;
+        }
+        
+        input[type=tel]#telefoneDDD {
+            width: 30px;
+        }
+        
+        input[type=tel]#telefoneNumero {
+            width: 90px;
+        }
+        
+        input[type=text]#id {
+            width: 50px;
         }

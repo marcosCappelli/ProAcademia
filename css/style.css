@@ -91,6 +91,10 @@
           border-radius: 5px;
       }
       
+      form {
+          width: auto;
+      }
+      
       fieldset {
           background-color: bisque;
           width: 400px;
@@ -139,7 +143,7 @@
           background-color: rgb(183, 115, 32);
           border-radius: 5px;
           color: azure;
-          width: 20%;
+          width: auto;
           height: 40px;
           font-size: 18px;
           text-transform: uppercase;
@@ -185,9 +189,4 @@
       
       td {
           padding: 2px;
-      }
-      
-      input#editar,
-      input#excluir {
-          width: 80px;
       }
